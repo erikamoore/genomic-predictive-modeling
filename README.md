@@ -41,3 +41,7 @@ Then, to extend beyond `Hail` tutorials, I shifted my focus to predictive modeli
 
 * In the end, the `RF` was quite successful (~90% accuracy) at predicting the true quality of the DNA samples (without relying on the `Hail` built-in method itself!).
 * We also get to visualize the feature importances, which is always a good idea for Random Forests. : )
+
+---
+
+**Repository URL**: [https://github.com/erikamoore/genomic-predictive-modeling.git](https://github.com/erikamoore/genomic-predictive-modeling.git)
