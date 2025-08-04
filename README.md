@@ -18,7 +18,12 @@ In order to work with the `1000 Genomes` dataset, I used the `Hail` library to:
 * Access a subset of the dataset through distributed processing  
 * Run a `GWAS` (analyze trait associations, generate a Manhattan Plot, etc.)
 
+<p align="center">
+  <img src="images/manhattan_plot.png" alt="sample plots with hail library" style="max-width: 50%; height: auto;">
+</p>
+
 ---
+
 
 ## Quality Control Predictive Modeling
 
@@ -36,11 +41,19 @@ Then, to extend beyond `Hail` tutorials, I shifted my focus to predictive modeli
 
 * Then, with the ‘small’ size of 1 genome i.e., `10,000` DNA samples, I could clean the genomic data with `Pandas`/`Numpy` and construct a `Random Forest` classifier.
 
+<p align="center">
+  <img src="images/overview.png" alt="a summary of the pipeline" style="max-width: 50%; height: auto;">
+</p>
+
 ---
 ## A Random Forest Success!
-
 * In the end, the `RF` was quite successful (~90% accuracy) at predicting the true quality of the DNA samples (without relying on the `Hail` built-in method itself!).
 * We also get to visualize the feature importances, which is always a good idea for Random Forests. : )
+
+
+<p align="center">
+  <img src="images/feature_importances.png" alt="feature importances from the Random Forest" style="max-width: 100%; height: auto;">
+</p>
 
 ---
 
